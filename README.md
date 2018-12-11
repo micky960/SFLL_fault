@@ -5,7 +5,7 @@ SFLL-fault [1] is the latest logic locking technique improving upon the existing
 Toward that end, the traditional threat model is assumed, where the attacker has the following capabilities:
 
 1. Complete reverse-engineered locked netlist except the locking key.
-2. Access to a working oracle, or a activated IC.
+2. Access to a working oracle or an activated IC.
 
 In this repository, we provide the above two entities as follows:
 
