@@ -4,13 +4,13 @@ SFLL-fault [1] is the latest logic locking technique improving upon the existing
 
 Toward that end, the traditional threat model is assumed, where the attacker has the following capabilities:
 
-1. Complete reverse-engineered locked netlist except the locking key.
+1. Complete reverse-engineered (RE) locked netlist except the locking key.
 2. Access to a working oracle or an activated IC.
 
 In this repository, we provide the above two entities as follows:
 
-1. RE locked netlist - The reverse-engineered locked netlist is provided as SFLL_fault.bench which is locked using 128 bit key bits.
-2. Access to the oracle is provided in the form of a binary executable Vour. The oracle executable has been compiled for Ubuntu 16.04.5 LTS (Xenial Xerus) and generated using Verilator tool from Veripool. For correct execution of the executable, you also need to install the tool available at: http://www.veripool.org/wiki/verilator. 
+1. RE locked netlist - The RE locked netlist is provided as SFLL_fault.bench which is locked using 128 bit key.
+2. Access to the oracle is provided in the form of a binary executable <b>Vour</b>. The oracle executable has been compiled for Ubuntu 16.04.5 LTS (Xenial Xerus) and generated using Verilator tool from Veripool. For correct execution of the executable, you also need to install the tool available at: http://www.veripool.org/wiki/verilator. 
 
 # Oracle information
 
