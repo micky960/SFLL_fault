@@ -9,7 +9,7 @@ Toward that end, the traditional threat model is assumed, where the attacker has
 
 In this repository, we provide the above two entities as follows:
 
-1. RE locked netlist - The RE locked netlist is provided as SFLL_fault.bench which is locked using 128 bit key.
+1. RE locked netlist - The RE locked netlist is provided as <b>SFLL_fault.bench</b> which is locked using 128 bit key.
 2. Access to the oracle is provided in the form of a binary executable <b>Vour</b>. The oracle executable has been compiled for Ubuntu 16.04.5 LTS (Xenial Xerus) and generated using Verilator tool from Veripool. For correct execution of the executable, you also need to install the tool available at: http://www.veripool.org/wiki/verilator. 
 
 # Oracle information
