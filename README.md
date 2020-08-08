@@ -1,6 +1,6 @@
 # SFLL_rem
 
-SFLL-rem [1] is the latest logic locking technique improving upon the existing technique SFLL [2], while holding the same theoretical guarantees. This platform is to enable you to attack and decrypt our latest solution SFLL-fault. 
+SFLL-rem [1] is the latest logic locking technique improving upon the existing technique SFLL [2], while holding the same theoretical guarantees. This platform is to enable you to attack and decrypt our latest solution SFLL-rem. 
 
 Toward that end, the traditional threat model is assumed, where the attacker has the following capabilities:
 
